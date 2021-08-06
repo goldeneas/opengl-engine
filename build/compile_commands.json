@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\Main.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\Main.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/Main.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\gcc.exe  @CMakeFiles/Yellow-Engine.dir/includes_C.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\include\\glad.c.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\include\\glad.c",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/include/glad.c"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\Renderer.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\Renderer.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/Renderer.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\Shader.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\Shader.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/Shader.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\ShaderProgram.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\ShaderProgram.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/ShaderProgram.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\Window.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\Window.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/Window.cpp"
+}
+]
