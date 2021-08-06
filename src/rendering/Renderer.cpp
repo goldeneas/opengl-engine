@@ -25,21 +25,37 @@ void Renderer::Init(float vertices[], int vertCount) {
     Shader fragmentShader(fragmentShaderSource, GL_FRAGMENT_SHADER);
     ShaderProgram shaderProgram(vertexShader.GetId(), fragmentShader.GetId());
 
-    glUseProgram(shaderProgram.GetId());
+    // Store ShaderProgram ID
+    programId = shaderProgram.GetId();
 
-    glDeleteShader(vertexShader.GetId());
-    glDeleteShader(fragmentShader.GetId());
+    // Generate VAO
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO);
 
     // Vertices VBO
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, vertCount, vertices, GL_STATIC_DRAW);
+
+    // Attrib pointers
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
+
+    // Unbind VBO and VAO
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
 }
 
 void Renderer::Dispose() {
-
+    glDeleteVertexArrays(1, &VAO);
+    glDeleteBuffers(1, &VBO);
+    glDeleteProgram(programId);
 }
 
 void Renderer::Render() {
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    glUseProgram(programId);
+    glBindVertexArray(VAO);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
 }

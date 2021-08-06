@@ -16,6 +16,10 @@ void Window::Init() {
     glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
     glfwWindowHint(GLFW_DECORATED, GL_FALSE);
 
+    #ifdef __APPLE__
+        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    #endif
+
     window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Yellow Engine (Now c++ flavored!)", NULL, NULL);
     if(window == NULL) {
         std::cout << "[FATAL] Could not initialize glfw window." << std::endl;
@@ -48,7 +52,6 @@ void Window::Update() {
 
 void Window::Render() {
     glClearColor(0.14f, 0.16f, 0.40, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glfwSwapBuffers(window);
     glfwPollEvents();

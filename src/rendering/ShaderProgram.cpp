@@ -20,4 +20,7 @@ ShaderProgram::ShaderProgram(unsigned int vertexShaderId, unsigned int fragmentS
         glGetShaderInfoLog(programId, 512, NULL, infoLog);
         std::cout << "[ERROR] Could not link shaders to program." << std::endl;
     }
+
+    glDeleteShader(vertexShaderId);
+    glDeleteShader(fragmentShaderId);
 }
