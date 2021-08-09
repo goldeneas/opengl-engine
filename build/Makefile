@@ -570,6 +570,30 @@ src/include/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/include/glad.c.s
 .PHONY : src/include/glad.c.s
 
+src/include/stb_image.obj: src/include/stb_image.cpp.obj
+.PHONY : src/include/stb_image.obj
+
+# target to build an object file
+src/include/stb_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj
+.PHONY : src/include/stb_image.cpp.obj
+
+src/include/stb_image.i: src/include/stb_image.cpp.i
+.PHONY : src/include/stb_image.i
+
+# target to preprocess a source file
+src/include/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.i
+.PHONY : src/include/stb_image.cpp.i
+
+src/include/stb_image.s: src/include/stb_image.cpp.s
+.PHONY : src/include/stb_image.s
+
+# target to generate assembly for a file
+src/include/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.s
+.PHONY : src/include/stb_image.cpp.s
+
 src/rendering/Renderer.obj: src/rendering/Renderer.cpp.obj
 .PHONY : src/rendering/Renderer.obj
 
@@ -642,6 +666,30 @@ src/rendering/ShaderProgram.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.s
 .PHONY : src/rendering/ShaderProgram.cpp.s
 
+src/rendering/Texture.obj: src/rendering/Texture.cpp.obj
+.PHONY : src/rendering/Texture.obj
+
+# target to build an object file
+src/rendering/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj
+.PHONY : src/rendering/Texture.cpp.obj
+
+src/rendering/Texture.i: src/rendering/Texture.cpp.i
+.PHONY : src/rendering/Texture.i
+
+# target to preprocess a source file
+src/rendering/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.i
+.PHONY : src/rendering/Texture.cpp.i
+
+src/rendering/Texture.s: src/rendering/Texture.cpp.s
+.PHONY : src/rendering/Texture.s
+
+# target to generate assembly for a file
+src/rendering/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Yellow-Engine.dir\build.make CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.s
+.PHONY : src/rendering/Texture.cpp.s
+
 src/rendering/Window.obj: src/rendering/Window.cpp.obj
 .PHONY : src/rendering/Window.obj
 
@@ -712,6 +760,9 @@ help:
 	@echo ... src/include/glad.obj
 	@echo ... src/include/glad.i
 	@echo ... src/include/glad.s
+	@echo ... src/include/stb_image.obj
+	@echo ... src/include/stb_image.i
+	@echo ... src/include/stb_image.s
 	@echo ... src/rendering/Renderer.obj
 	@echo ... src/rendering/Renderer.i
 	@echo ... src/rendering/Renderer.s
@@ -721,6 +772,9 @@ help:
 	@echo ... src/rendering/ShaderProgram.obj
 	@echo ... src/rendering/ShaderProgram.i
 	@echo ... src/rendering/ShaderProgram.s
+	@echo ... src/rendering/Texture.obj
+	@echo ... src/rendering/Texture.i
+	@echo ... src/rendering/Texture.s
 	@echo ... src/rendering/Window.obj
 	@echo ... src/rendering/Window.i
 	@echo ... src/rendering/Window.s

@@ -11,6 +11,11 @@
 },
 {
   "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\include\\stb_image.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\include\\stb_image.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/include/stb_image.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\Renderer.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\Renderer.cpp",
   "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/Renderer.cpp"
 },
@@ -23,6 +28,11 @@
   "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\ShaderProgram.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\ShaderProgram.cpp",
   "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/ShaderProgram.cpp"
+},
+{
+  "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp -g -o CMakeFiles\\Yellow-Engine.dir\\src\\rendering\\Texture.cpp.obj -c D:\\Workspace\\C-C++\\GLFW\\Yellow-Engine\\src\\rendering\\Texture.cpp",
+  "file": "D:/Workspace/C-C++/GLFW/Yellow-Engine/src/rendering/Texture.cpp"
 },
 {
   "directory": "D:/Workspace/C-C++/GLFW/Yellow-Engine/build",

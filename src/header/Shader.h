@@ -6,9 +6,8 @@
 class Shader {
     private:
         unsigned int shaderId;
-        const char *shaderSource;
 
     public:
-        Shader(const char *shaderSource, int shaderType);
+        Shader(const char *shaderPath, int glShaderType);
         unsigned int GetId() { return shaderId; };
 };

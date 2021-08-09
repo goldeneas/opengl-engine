@@ -1,10 +1,15 @@
 #pragma once
 
+#include "../header/Shader.h"
+
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 class ShaderProgram {
     private:
         unsigned int programId;
 
     public:
-        ShaderProgram(unsigned int vertexShaderId, unsigned int fragmentShaderId);
+        ShaderProgram(Shader vertexShader, Shader fragmentShaderId);
+        void Dispose();
         unsigned int GetId() { return programId; };
 };

@@ -5,8 +5,12 @@
 
 #include <iostream>
 
-ShaderProgram::ShaderProgram(unsigned int vertexShaderId, unsigned int fragmentShaderId) {
+ShaderProgram::ShaderProgram(Shader vertexShader, Shader fragmentShader) {
     programId = glCreateProgram();
+
+    unsigned int vertexShaderId = vertexShader.GetId();
+    unsigned int fragmentShaderId = fragmentShader.GetId();
+
     glAttachShader(programId, vertexShaderId);
     glAttachShader(programId, fragmentShaderId);
 
@@ -23,4 +27,8 @@ ShaderProgram::ShaderProgram(unsigned int vertexShaderId, unsigned int fragmentS
 
     glDeleteShader(vertexShaderId);
     glDeleteShader(fragmentShaderId);
+}
+
+void ShaderProgram::Dispose() {
+    glDeleteProgram(programId);
 }

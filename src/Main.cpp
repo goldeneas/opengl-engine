@@ -4,9 +4,16 @@
 #include <iostream>
 
 float vertices[] = {
-    -0.5f, -0.5f, 0.0f,
-     0.5f, -0.5f, 0.0f,
-     0.0f,  0.5f, 0.0f
+    // Coordinates        // Colors           // Texture
+     0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 1.0f,   1.0f, 1.0f,   // top right
+     0.5f, -0.5f, 0.0f,   1.0f, 1.0f, 1.0f,   1.0f, 0.0f,   // bottom right
+    -0.5f, -0.5f, 0.0f,   1.0f, 1.0f, 1.0f,   0.0f, 0.0f,   // bottom left
+    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 1.0f,   0.0f, 1.0f    // top left 
+};
+
+int indices[] = {
+    0, 1, 3,
+    1, 2, 3
 };
 
 int main() {
@@ -14,7 +21,7 @@ int main() {
     Renderer renderer;
     
     window.Init();
-    renderer.Init(vertices, sizeof(vertices));
+    renderer.Init(vertices, indices, sizeof(vertices), sizeof(indices));
 
     while(!window.ShouldClose()) {
         window.Input();

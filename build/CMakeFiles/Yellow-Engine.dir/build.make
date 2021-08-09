@@ -98,11 +98,26 @@ CMakeFiles/Yellow-Engine.dir/src/include/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Yellow-Engine.dir/src/include/glad.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Workspace\C-C++\GLFW\Yellow-Engine\src\include\glad.c -o CMakeFiles\Yellow-Engine.dir\src\include\glad.c.s
 
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj: CMakeFiles/Yellow-Engine.dir/flags.make
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj: ../src/include/stb_image.cpp
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\include\stb_image.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\include\stb_image.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\include\stb_image.cpp
+
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\C-C++\GLFW\Yellow-Engine\src\include\stb_image.cpp > CMakeFiles\Yellow-Engine.dir\src\include\stb_image.cpp.i
+
+CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\C-C++\GLFW\Yellow-Engine\src\include\stb_image.cpp -o CMakeFiles\Yellow-Engine.dir\src\include\stb_image.cpp.s
+
 CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj: CMakeFiles/Yellow-Engine.dir/flags.make
 CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj: ../src/rendering/Renderer.cpp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\rendering\Renderer.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\rendering\Renderer.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Renderer.cpp
 
 CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj: CMakeFiles/Yellow-Eng
 CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj: ../src/rendering/Shader.cpp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\rendering\Shader.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\rendering\Shader.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Shader.cpp
 
 CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj: CMakeFiles/Yel
 CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
 CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj: ../src/rendering/ShaderProgram.cpp
 CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\rendering\ShaderProgram.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\rendering\ShaderProgram.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\ShaderProgram.cpp
 
 CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.i: cmake_force
@@ -143,11 +158,26 @@ CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\ShaderProgram.cpp -o CMakeFiles\Yellow-Engine.dir\src\rendering\ShaderProgram.cpp.s
 
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj: CMakeFiles/Yellow-Engine.dir/flags.make
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj: ../src/rendering/Texture.cpp
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\rendering\Texture.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\rendering\Texture.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Texture.cpp
+
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Texture.cpp > CMakeFiles\Yellow-Engine.dir\src\rendering\Texture.cpp.i
+
+CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Texture.cpp -o CMakeFiles\Yellow-Engine.dir\src\rendering\Texture.cpp.s
+
 CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj: CMakeFiles/Yellow-Engine.dir/flags.make
 CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj: CMakeFiles/Yellow-Engine.dir/includes_CXX.rsp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj: ../src/rendering/Window.cpp
 CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj: CMakeFiles/Yellow-Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj -MF CMakeFiles\Yellow-Engine.dir\src\rendering\Window.cpp.obj.d -o CMakeFiles\Yellow-Engine.dir\src\rendering\Window.cpp.obj -c D:\Workspace\C-C++\GLFW\Yellow-Engine\src\rendering\Window.cpp
 
 CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.i: cmake_force
@@ -162,9 +192,11 @@ CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.s: cmake_force
 Yellow__Engine_OBJECTS = \
 "CMakeFiles/Yellow-Engine.dir/src/Main.cpp.obj" \
 "CMakeFiles/Yellow-Engine.dir/src/include/glad.c.obj" \
+"CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj" \
 "CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj" \
 "CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj" \
 "CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj" \
+"CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj" \
 "CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj"
 
 # External object files for target Yellow-Engine
@@ -172,16 +204,18 @@ Yellow__Engine_EXTERNAL_OBJECTS =
 
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/Main.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/include/glad.c.obj
+Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/include/stb_image.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/rendering/Renderer.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/rendering/Shader.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/rendering/ShaderProgram.cpp.obj
+Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/rendering/Texture.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/src/rendering/Window.cpp.obj
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/build.make
 Yellow-Engine.exe: C:/OpenGL/lib/libglfw3.a
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/linklibs.rsp
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/objects1.rsp
 Yellow-Engine.exe: CMakeFiles/Yellow-Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Yellow-Engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\C-C++\GLFW\Yellow-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Yellow-Engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Yellow-Engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
