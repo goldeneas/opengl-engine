@@ -1,2 +1,2 @@
-# Yellow Engine
- Yellow Engine, but now in c++!
+# OpenGL 3D Engine
+More info here :)
