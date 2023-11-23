@@ -1,2 +1,2 @@
 # OpenGL 3D Engine
-OpenGL engine using GLFW
+OpenGL engine made using GLFW
