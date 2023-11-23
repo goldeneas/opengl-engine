@@ -1,2 +1,2 @@
 # OpenGL 3D Engine
-More info here :)
+OpenGL engine using GLFW
